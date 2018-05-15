@@ -4,7 +4,7 @@
       <h2 class="main-heading">¡Estaremos de vuelta pronto!</h2>
     </header>
     <section class="info">
-      <p class="info-text">Estamos trabajando muy duro para ofrecerte la mejor experiencia con nuestra nueva tienda. Amarás Vivatecno tanto cómo nosotros.</p>
+      <p class="info-text">Estamos trabajando para ofrecerte la mejor experiencia con nuestra nueva tienda. Amarás <span class="company-name">Vivatecno</span> tanto cómo nosotros.</p>
     </section>
     <subscribe />
   </div>
