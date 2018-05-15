@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header class="header">
-      <h2 class="main-heading">¡Estamos preparando la mejor experiencia de compra sólo para ti!</h2>
+      <h2 class="main-heading">¡Estaremos de vuelta pronto!</h2>
     </header>
     <section class="info">
       <p class="info-text">Estamos trabajando muy duro para ofrecerte la mejor experiencia con nuestra nueva tienda. Amarás Vivatecno tanto cómo nosotros.</p>

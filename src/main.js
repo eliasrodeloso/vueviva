@@ -19,20 +19,20 @@ new Vue({
 particlesJS('particles', {
   particles: {
     number: {
-      value: 250,
+      value: 100,
       density: {
         enable: true,
         value_area: 800
       }
     },
     color: {
-      value: '#ffffff'
+      value: '#004777'
     },
     shape: {
       type: 'circle',
       stroke: {
         width: 0,
-        color: '#000000'
+        color: '#a30000'
       },
       polygon: {
         nb_sides: 5
@@ -44,7 +44,7 @@ particlesJS('particles', {
       anim: {
         enable: true,
         speed: 1,
-        opacity_min: 0,
+        opacity_min: 0.125,
         sync: false
       }
     },
@@ -59,29 +59,29 @@ particlesJS('particles', {
       }
     },
     line_linked: {
-      enable: false,
-      distance: 189.39543399174545,
-      color: '#ffffff',
+      enable: true,
+      distance: 150,
+      color: '#004777',
       opacity: 0.4,
       width: 1
     },
     move: {
       enable: true,
-      speed: 1,
+      speed: 3,
       direction: 'none',
       random: true,
       straight: false,
-      out_mode: 'out',
+      out_mode: 'bounce',
       bounce: false,
       attract: {
-        enable: false,
+        enable: true,
         rotateX: 600,
         rotateY: 600
       }
     }
   },
   interactivity: {
-    detect_on: 'canvas',
+    detect_on: 'window',
     events: {
       onhover: {
         enable: true,
@@ -108,7 +108,7 @@ particlesJS('particles', {
         speed: 3
       },
       repulse: {
-        distance: 400,
+        distance: 250,
         duration: 0.4
       },
       push: {
