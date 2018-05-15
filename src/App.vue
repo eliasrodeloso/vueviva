@@ -1,23 +1,24 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <header class="header">
+      <h2 class="main-heading">¡Estamos preparando la mejor experiencia de compra sólo para ti!</h2>
+    </header>
+    <section class="info">
+      <p class="info-text">Estamos trabajando muy duro para ofrecerte la mejor experiencia con nuestra nueva tienda. Amarás Vivatecno tanto cómo nosotros.</p>
+    </section>
+    <subscribe />
   </div>
 </template>
 
 <script>
+import Subscribe from './components/Subscribe.vue'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    subscribe: Subscribe
+  }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style src="./sass/theme.sass" lang="sass"></style>
