@@ -14,11 +14,16 @@
     "publish": "node build/ftp.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "font-face-generator": "^1.1.0",
     "lodash": "^4.17.10",
+    "mdi-vue": "^0.2.14",
     "normalize-scss": "^7.0.1",
     "particles.js": "^2.0.0",
+    "popper.js": "^1.14.3",
+    "tooltip.js": "^1.2.0",
     "vue": "^2.5.2",
+    "vue-loaders": "^2.0.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

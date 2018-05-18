@@ -3,8 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import 'vue-loaders/dist/vue-loaders.css'
+import { BallScaleMultipleLoader } from 'vue-loaders'
 require('particles.js')
 
+Vue.component(BallScaleMultipleLoader.name, BallScaleMultipleLoader)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
@@ -67,7 +70,7 @@ particlesJS('particles', {
     },
     move: {
       enable: true,
-      speed: 3,
+      speed: 1,
       direction: 'none',
       random: true,
       straight: false,
