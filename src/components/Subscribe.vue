@@ -22,7 +22,7 @@ import axios from 'axios'
 import EmailInput from './commons/input/InputEmail.vue'
 
 let client = axios.create({
-  baseURL: 'http://localhost:8000/api'
+  baseURL: 'https://vivatecnomc.herokuapp.com/api'
 })
 
 export default {

@@ -1,0 +1,57 @@
+/******************************************
+*  Author : Elías Rodelo   
+*  Created On : Fri May 18 2018
+*  File : fonts.scss
+*******************************************/
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../assets/fonts/Proxima-Nova/ProximaNova-Extrabld.woff')
+      format('woff'),
+    url('../assets/fonts/Proxima-Nova/ProximaNova-Extrabld.svg') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../assets/fonts/Proxima-Nova/ProximaNova-Bold.woff') format('woff'),
+    url('../assets/fonts/Proxima-Nova/ProximaNova-Bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../assets/fonts/Proxima-Nova/ProximaNova-BoldIt.woff')
+      format('woff'),
+    url('../assets/fonts/Proxima-Nova/ProximaNova-BoldIt.svg') format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../assets/fonts/Proxima-Nova/ProximaNova-Regular.woff')
+      format('woff'),
+    url('../assets/fonts/Proxima-Nova/ProximaNova-Regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../assets/fonts/Proxima-Nova/ProximaNova-RegularIt.woff')
+      format('woff'),
+    url('../assets/fonts/Proxima-Nova/ProximaNova-RegularIt.svg') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../assets/fonts/Proxima-Nova/ProximaNova-Light.woff') format('woff'),
+    url('../assets/fonts/Proxima-Nova/ProximaNova-Light.svg') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}

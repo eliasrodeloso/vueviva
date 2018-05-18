@@ -17,6 +17,14 @@ export default {
   name: 'App',
   components: {
     subscribe: Subscribe
+  },
+  mounted() {
+    setTimeout(() => {
+      document.querySelectorAll('.loading-backdrop')[0].classList.add('animate')
+    }, 2500)
+    setTimeout(() => {
+      document.querySelectorAll('.loading-backdrop')[0].classList.add('hide')
+    }, 3500)
   }
 }
 </script>

@@ -1,0 +1,31 @@
+/******************************************
+*  Author : Elías Rodelo   
+*  Created On : Fri May 18 2018
+*  File : _mixins.scss
+*******************************************/
+
+.fade {
+  &-enter-active,
+  &-leave-active {
+    transition: opacity 0.25s;
+  }
+
+  &-leave-to,
+  &-enter {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  0% {
+    background-color: transparent;
+  }
+
+  50% {
+    background-color: $primary;
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
