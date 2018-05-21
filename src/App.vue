@@ -18,6 +18,16 @@ export default {
   components: {
     subscribe: Subscribe
   },
+  metaInfo: {
+    title: 'Bienvenido | Vivatecno',
+    link: [
+      {
+        rel: 'favicon',
+        href: require('@/assets/img/favicon.ico'),
+        type: 'image/x-icon'
+      }
+    ]
+  },
   mounted() {
     setTimeout(() => {
       document.querySelectorAll('.loading-backdrop')[0].classList.add('animate')

@@ -1,0 +1,31 @@
+/******************************************
+*  Author : Elías Rodelo   
+*  Created On : Fri May 18 2018
+*  File : _palette.scss
+*******************************************/
+
+$mobile: 425px;
+$tablet: 768px;
+$laptop: 1024px;
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: $mobile) {
+    @content;
+  }
+}

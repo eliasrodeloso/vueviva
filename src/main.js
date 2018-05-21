@@ -3,12 +3,14 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Meta from 'vue-meta'
 import 'vue-loaders/dist/vue-loaders.css'
 import { BallScaleMultipleLoader } from 'vue-loaders'
 require('particles.js')
 
 Vue.component(BallScaleMultipleLoader.name, BallScaleMultipleLoader)
 Vue.config.productionTip = false
+Vue.use(Meta)
 
 /* eslint-disable no-new */
 new Vue({

@@ -9,17 +9,14 @@
   color: $white;
 }
 
-.main-heading {
-  font-weight: bolder;
-  text-transform: uppercase;
-  font-size: 2.25em;
-  text-shadow: 0 0 1px $dark-1, 1px 1px 1px $dark-2, 2px 2px 2px $dark-3;
-}
-
 .info-text {
   font-size: 1.5em;
   text-shadow: 0 0 2px $dark;
   line-height: 1.5;
+
+  @include mobile {
+    font-size: 1em;
+  }
 }
 
 .company-name {

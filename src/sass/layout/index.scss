@@ -4,6 +4,8 @@
 *  File : layout/_index.scss
 *******************************************/
 
+@import '_header';
+
 body {
   width: 100vw;
   height: 100vh;
@@ -21,6 +23,10 @@ body {
       box-sizing: border-box;
     }
   }
+
+  @include tablet {
+    height: 100%;
+  }
 }
 
 #app {
@@ -33,6 +39,10 @@ body {
   z-index: 1;
   max-width: 80vw;
   margin: 0 auto 0 auto;
+
+  @include tablet {
+    max-width: 92vw;
+  }
 }
 
 #particles {
@@ -46,6 +56,14 @@ body {
   background-position: center top, center, center;
   background-size: 300px, 100%, 100%;
   background-repeat: no-repeat;
+
+  @include tablet {
+    background-size: 300px, 100%, cover;
+  }
+
+  @include mobile {
+    background-size: 250px, 100%, cover;
+  }
 }
 
 .loading-backdrop {
@@ -70,16 +88,6 @@ body {
 
   &.hide {
     display: none;
-  }
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
   }
 }
 
