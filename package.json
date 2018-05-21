@@ -5,12 +5,13 @@
   "author": "Elías Rodelo <eliasrodeloso@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev":
+      "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit",
-    "build": "node build/build.js && node build/ftp.js",
+    "build": "node build/build.js",
     "publish": "node build/ftp.js"
   },
   "dependencies": {
@@ -21,6 +22,7 @@
     "normalize-scss": "^7.0.1",
     "particles.js": "^2.0.0",
     "popper.js": "^1.14.3",
+    "prerender-spa-plugin": "^3.1.0",
     "tooltip.js": "^1.2.0",
     "vue": "^2.5.2",
     "vue-loaders": "^2.0.0",
@@ -88,9 +90,5 @@
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
 }
